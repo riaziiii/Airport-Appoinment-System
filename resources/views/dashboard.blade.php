@@ -13,7 +13,16 @@
     </head>
           <body>
             <h1 class="text-red-500 text-3xl font-bold underline">DASHBOARD</h1>
-            <a href="{{ route('welcome') }}">Welcome</a>
+            <div>
+                <a href="{{ route('welcome') }}">Welcome</a>
+            </div>
+            <div>
+                <a href="{{ route('products.create') }}">Create products</a>
+            </div>
+            <div>
+                <a href="{{ route('products.index') }}">Products</a> 
+            </div>
+           
            
 
     </body>

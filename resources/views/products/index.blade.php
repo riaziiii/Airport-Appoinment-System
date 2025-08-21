@@ -11,18 +11,15 @@
             @vite(['resources/css/app.css', 'resources/js/app.js'])
         @endif
     </head>
-    <body>
-        <h1 class="text-red-500 text-3xl font-bold underline">HELLO WORLD</h1>
+          <body>
+            <h1 class="text-red-500 text-3xl font-bold underline">HELLO WORLD</h1>
             
-        <div>
-            <a href="{{ route('dashboard') }}">Dashboard</a>	
-        </div>
-        <div> 
-            <a href="{{ route('products.index') }}">Products</a>
-        </div>
-        <div>
-            <a href="{{ route('products.create') }}">Create products</a>
-        </div>
-            
+            <div>
+                <a href="{{ route('dashboard') }}">dashboard</a>	
+            </div>
+            <div>
+                <a href="{{ route('products.create') }}">Create products</a>
+            </div>
+
     </body>
 </html>
